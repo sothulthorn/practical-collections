@@ -1,3 +1,3 @@
 # Store
 
-![](/store.png)
+![](/store/store.png)
