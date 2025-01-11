@@ -262,6 +262,44 @@ form {
   margin-top: 16px;
 }
 
+/* ABOUT PAGE */
+#about-header {
+  min-height: 400px;
+  background-image: url('./img/about-bannerr.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#about-header .header-content h1 {
+  font-weight: normal;
+}
+
+#our-mission {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+#our-mission img {
+  max-width: 100%;
+}
+
+.our-mission-content {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-mission-content h1 {
+  font-size: 32px;
+  color: var(--primary-dark);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 520px) {
   #header {
     min-height: 50vh;
