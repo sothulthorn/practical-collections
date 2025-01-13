@@ -300,6 +300,31 @@ form {
   margin-bottom: 10px;
 }
 
+/* SERVICES PAGE */
+.service-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.service-text {
+  max-width: 400px;
+}
+
+.service-text h1 {
+  margin-bottom: 20px;
+}
+
+.service-text p {
+  margin-bottom: 20px;
+}
+
+.service-img {
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 520px) {
   #header {
     min-height: 50vh;
